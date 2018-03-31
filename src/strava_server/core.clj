@@ -18,8 +18,8 @@
 (def oauth2-config
   {:authorization-uri "https://www.strava.com/oauth/authorize"
    :access-token-uri "https://www.strava.com/oauth/token"
-   :client-id "21184"
-   :client-secret "043d5615756549f7301408ac542d7cc5f351d2e6"
+   :client-id ""
+   :client-secret ""
    :redirect-uri "http://127.0.0.1:3000/strava-callback"
    :scope nil})
 

@@ -3,7 +3,7 @@
             [clojure.data.json :as json]))
 
 (def strava-api-url "https://www.strava.com/api/v3")
-(def personal-token "5bc9e030c2e6617f118e169ab8837a0492da3ddb")
+(def personal-token "")
 (def options {:headers {"Authorization:" (str "Bearer " personal-token) }})
 
 (def athlete-url (str strava-api-url "/athlete"))

@@ -3,7 +3,7 @@
             [clojure.data.json :as json]))
 
 (def strava-api-url "https://www.strava.com/api/v3")
-(def strava-key-new "3aec60290172a435b76079082216f9bb6d8798f0")
+(def strava-key-new "")
 (def options {:headers {"Authorization:" (str "Bearer " strava-key-new) }})
 (def activities-url (str strava-api-url "/athlete/activities?per_page=:num"))
 (def activity-url (str strava-api-url "/activities/:id?include_all_efforts=true"))
